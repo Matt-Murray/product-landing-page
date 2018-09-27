@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  margin: 0;
+  background-image: linear-gradient(
+      rgba(40, 100, 0, 0.7),
+      rgba(40, 240, 40, 0.6)
+    ),
+    url(http://blog.westelm.com/wp-content/uploads/2017/05/west-elm-tropical-leaves-desktop-wallpaper.jpg);
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 80px;
+}
+
+#header-img {
+  width: 100px;
+  height: 50px;
+  padding: 20px 40px 10px 10px;
+  margin: 0 40px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 25px 20px;
+  margin: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  padding: 30px;
+}
+
+.nav-link:hover {
+  color: gray;
+}
+
+#title-container {
+  font-size: 70px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  padding: 180px 0px 180px 0px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 180px 0;
+}
+
+p {
+  margin: 0 auto;
+  width: 40%;
+  font-size: 25px;
+}
+
+#section-intro {
+  background-color: white;
+  color: black;
+}
+
+#section-vid {
+  background-color: white;
+}
+
+#video {
+  margin: 0 auto;
+}
+
+#email {
+  height: 20px;
+  margin: 0 0 0 10px;
+}
+
+#submit {
+  background-color: beige;
+  border-radius: 15%;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  margin: 0 0 0 5px;
+  padding: 5px 5px 5px 5px;
+  box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.6;
+}
+
+#submit:hover {
+  opacity: 1;
+}
+
+footer {
+  text-align: right;
+  background-color: white;
+  color: black;
+  padding: 10px 10px 10px 10px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  ul {
+    padding: 25px 0px;
+  }
+}
